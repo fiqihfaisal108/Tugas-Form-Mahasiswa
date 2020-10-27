@@ -1,0 +1,108 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrasi Mahasiswa</title>
+    <style type="text/css">
+    .contaiter {
+       width: 30%;
+       margin: auto;
+       background-color: #2d7d6381;   
+       color: white;
+    }
+    .tulisan {
+        text-align: center;
+        font-family: lato;
+        font-weight: bold;
+        padding-top: 50px;
+    }
+    table {
+        margin: auto;
+    }
+    table td {
+        padding-bottom: 20px;
+    }
+    .input {
+        border-radius: 7px;
+    }
+    .submit {
+        padding: 5px 20px;
+        font-family: lato;
+        font-weight: bold;
+        border-radius: 5px;
+    }
+    </style>
+</head>
+
+<body background="image/Tak berjudul102_20201026005519.png"> 
+    
+    <div class="contaiter">
+        <h1 class="tulisan">Formulir Pendaftaran Mahasiswa</h1>
+        
+        <form action="">
+            <table class="table">
+                <tr>
+                    <td><label for="name">Nama</label></td>
+                    <td><input type="text" class="input" placeholder="-Nama Lengkap-"></td>
+                </tr>
+                <tr>
+                    <td><label for="name" >Tempat Lahir</label></td>
+                    <td><input type="text" class="input" placeholder="-Tempat Lahir-"></td>
+                </tr>
+                <tr>
+                    <td><label for="name">Tanggal Lahir</label></td>
+                    <td><input type="date" name="start_date" id="start_date" value=""></td>
+                </tr>
+                <tr>
+                    <td><label for="name">Jenis Kelamin</label></td>
+                    <td>
+                        <input type="radio" id="huey" name="drone" value="laki-laki">
+                        <label for="">Laki-Laki</label>
+                        <input type="radio" id="huey" name="drone" value="perempuan">
+                        <label for="">Perempuan</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="name">Agama</label></td>
+                    <td>
+                        <select name="Agama" id="select" class="input">
+                            <option value="">---Silakan Di Pilih---</option>
+                            <option value="">Islam</option>
+                            <option value="">Kristen</option>
+                            <option value="">Hindu</option>
+                            <option value="">Budha</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="name">No.Telp</label></td>
+                    <td><input type="text" class="input" placeholder="-No Telepon-"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email</label></td>
+                    <td><input type="email" id="email" class="input" placeholder="user@gmail.com"></td>
+                </tr>
+                <tr>
+                    <td><label for="name">Jurusan</label></td>
+                    <td><select name="jurusan" id="" class="input">
+                        <option value="">---Silakan Di Pilih---</option>
+                        <option value="">Sistem Informasi (S1)</option>
+                        <option value="">Teknik Informatika (S1)</option>
+                        <option value="">Sistem Informasi (D3)</option>
+                        <option value="">Teknik Informatika (D3)</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td><label for="">Alamat Lengkap</label></td>
+                    <td><input type="text" class="input" placeholder="-Alamat Tinggal Saat Ini-"></td>
+                </tr> 
+                <tr>
+                    <td><input type="submit" class="submit" value="Daftar"></td>
+                </tr>
+            </table>
+        </form>
+
+    </div>
+    
+</body>
+</html>
